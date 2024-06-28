@@ -5,6 +5,8 @@ Doubles the value of each number in the array.
 Prints out the new updated array.
 Example: Given an array [1, 2, 4, 5]. The output should be [2, 4, 8, 10] */
 
+console.log("Ejercicio 2")
+
 const doublesArray = (array) =>
     {
         let array2= [ ];

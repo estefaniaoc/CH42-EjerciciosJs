@@ -8,6 +8,8 @@ function printOutString() {
 printOutString();
 Complete the function to print out the string: This is a sentence.*/
 
+console.log("Ejercicio 1")
+
 let arr = ["This", "is", "a", "sentence."];
 function printOutString() {
     console.log(arr.join(' '))

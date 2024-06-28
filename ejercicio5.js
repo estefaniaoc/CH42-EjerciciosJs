@@ -11,7 +11,7 @@ let people = ["Maria", "Dani", "Luis", "Juan", "Camila"];
 7.Write the command that gives the indexOf where "Maria" is located.
 At the end of the exercise, there should be 4 people in the array.
  */
-
+console.log("Ejercicio 5")
 //1
 let people = ["Maria", "Dani", "Luis", "Juan", "Camila"];
 
@@ -19,10 +19,10 @@ for (let i = 0; i < people.length; i++) {
     const element = people[i];
     console.log(element)
 }
-for(let p of people){
+/* for(let p of people){
     console.log(p)
 } 
-
+ */
 //2
 let index = people.indexOf("Dani");
 if (index !== -1) {
@@ -42,7 +42,6 @@ console.log("Remove Juan from the array:", people);
 //4
 let indexLuis = people.indexOf("Luis");
 let Luis= people.splice(indexLuis,1)[0];
-console.log(Luis);
 people.unshift(Luis);
 console.log("Luis in the front",people)
 
